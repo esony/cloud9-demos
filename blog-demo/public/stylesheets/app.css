@@ -1,0 +1,17 @@
+i.icon {
+    font-size: 1.5em;
+}
+.body-padding{
+    padding-top: 4em;
+}
+.content-font{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+.inline-form{
+    display: inline;
+}
+.navbar-width{
+    width: 50em;
+}
+
