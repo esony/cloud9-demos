@@ -1,4 +1,4 @@
-Authentication demo
+Authentication demo, testing Passport
 
 Packages needed:
 express
