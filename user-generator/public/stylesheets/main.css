@@ -1,0 +1,97 @@
+body {
+    background-color: #EFEFEE;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+}
+#title {
+    margin: auto;
+    margin-top: 3em;
+    text-align: center;
+}
+
+.card {
+    margin: auto;
+    width: 30em;
+    height: 18em;
+    max-width: 100%;
+    background: -webkit-linear-gradient(top left, rgba(255,93,177,0.05) 0%, rgba(251,72,165,0.2) 23%, rgba(245,38,145,0.4) 60%, rgba(239,1,124,0.5) 100%);
+    background: -moz-linear-gradient(top left, rgba(255,93,177,0.05) 0%, rgba(251,72,165,0.2) 23%, rgba(245,38,145,0.4) 60%, rgba(239,1,124,0.5) 100%);
+    background: -o-linear-gradient(top left, rgba(255,93,177,0.05) 0%, rgba(251,72,165,0.2) 23%, rgba(245,38,145,0.4) 60%, rgba(239,1,124,0.5) 100%);
+    background: linear-gradient(to bottom right, rgba(255,93,177,0.05) 0%, rgba(251,72,165,0.2) 23%, rgba(245,38,145,0.4) 60%, rgba(239,1,124,0.5) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    border: 5px solid #404040;
+    border-radius: 20px;
+    /*box-shadow: 10px 10px 30px grey;*/
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+.person {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+#avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 1em;
+    /*padding: 0.1em;*/
+    overflow: hidden; 
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.4), 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+#avatar > img {
+    height: 100%;
+    width: auto;
+}
+
+.information {
+    width: 80%;
+    padding: 0em 1em 1em 1em;
+    flex-grow: 2;
+}
+
+#name {
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
+#email {
+    font-style: italic;
+}
+
+#location {
+    text-transform: capitalize;
+}
+
+#next-btn {
+    /*Button text*/
+    padding-top: 0.2em;
+    /*background: none;*/
+    font-family: "Josefin Sans";
+    text-align: center;
+    font-size: 2em;
+    color: #EFEFEE;
+    border: none;
+    
+    /*Button visuals*/
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #27AE60;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+}
