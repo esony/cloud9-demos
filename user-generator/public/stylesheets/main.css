@@ -4,22 +4,23 @@ body {
 }
 
 .container {
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 100%;
+    width:600px;
+    /*max-width: 100%;*/
 }
 #title {
-    margin: auto;
+    /*margin: auto;*/
     margin-top: 3em;
     text-align: center;
 }
 
 .card {
     margin: auto;
-    width: 30em;
+    width: 80%;
     height: 18em;
-    max-width: 100%;
     background: -webkit-linear-gradient(top left, rgba(255,93,177,0.05) 0%, rgba(251,72,165,0.2) 23%, rgba(245,38,145,0.4) 60%, rgba(239,1,124,0.5) 100%);
     background: -moz-linear-gradient(top left, rgba(255,93,177,0.05) 0%, rgba(251,72,165,0.2) 23%, rgba(245,38,145,0.4) 60%, rgba(239,1,124,0.5) 100%);
     background: -o-linear-gradient(top left, rgba(255,93,177,0.05) 0%, rgba(251,72,165,0.2) 23%, rgba(245,38,145,0.4) 60%, rgba(239,1,124,0.5) 100%);
@@ -58,7 +59,7 @@ body {
 
 .information {
     width: 80%;
-    padding: 0em 1em 1em 1em;
+    padding: 0.1em 1em 1em 1em;
     flex-grow: 2;
 }
 

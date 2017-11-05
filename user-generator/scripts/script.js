@@ -1,16 +1,5 @@
 const url = "https://randomuser.me/api";
 
-// const btn = document.querySelector("button");
-// btn.addEventListener("click", () => {
-//     fetch(url)
-//     .then((res) => {
-//         console.log("CLICK")
-//     })
-//     .catch((err) => {
-//         console.log(err)
-//     })
-// });
-
 $("#next-btn").css("cursor", "pointer");
 
 $("#next-btn").click(() => {
